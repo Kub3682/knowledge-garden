@@ -1,21 +1,30 @@
----
-layout: home
-hero:
-  name: Kub 的知识笔记
-  text: 从问题出发，理解计算与系统
-  tagline: 把概念放回它要解决的问题里。
-  actions:
-    - theme: brand
-      text: 阅读「计算的本质」
-      link: /computing/
-    - theme: alt
-      text: 打开互动实验室
-      link: https://kub3682.github.io/embedded-computing-atlas/
-features:
-  - title: 计算的本质
-    details: 从清点羊群开始，理解记录、表示与计算规则。
-    link: /computing/
-  - title: 互动实验室
-    details: 操作逻辑开关、CPU 教学机与硬件执行画布。
-    link: https://kub3682.github.io/embedded-computing-atlas/
----
+# 计算的本质
+
+从人怎样记录和处理问题开始，逐步理解自动计算、可编程机器、学习系统与能够行动的 AI。
+
+## 怎样阅读这本书
+
+左侧是全书目录，中间展开当前章节，右侧定位本页段落。手机上可展开目录选择章节。
+
+每章从一个问题出发，用图示或实验解释一个机制，再沿新的问题继续。背景故事和原始资料放在相关段落附近。
+
+[从「少了一只羊吗？」开始](/computing/counting)
+
+## 全书路线
+
+- [一 · 人为什么需要计算](/book/beginnings/) — 怎样记住、比较和预测眼前的事物？
+- [二 · 怎样让机器代劳](/book/machines/) — 哪些操作可以明确成步骤，再交给装置？
+- [三 · 一台机器怎样处理不同问题](/book/programs/) — 操作本身怎样变成机器可以读取的记录？
+- [四 · 怎样让计算适应更大的任务](/book/systems/) — 时间、数据、能耗和成本怎样影响硬件与软件？
+- [五 · 规则写不完时怎么办](/book/learning/) — 怎样用数据调整模型，并检验它对新输入的表现？
+- [六 · 机器怎样处理语言与知识](/book/language/) — 文本怎样成为可学习、可生成的对象？
+- [七 · 从生成答案到参与行动](/book/agents/) — 怎样把模型的输出用于可验证的任务？
+- [八 · 当 AI 进入物理世界](/book/physical/) — 怎样把感知、预测、决策和控制闭合起来？
+
+## 当前进度
+
+第一篇已有三章。第二至八篇先建立问题与案例路线，后续逐章补充。算法、CPU 与异构执行已有独立的[互动实验室](https://kub3682.github.io/embedded-computing-atlas/)。
+
+## 怎样理解演进
+
+新需求推动新的表示、算法和实现方式。历史中存在多条并行路线，每一章都会区分机制演示、历史证据和开放问题。关于现代 AI 与物理 AI 的内容，将结合可核查资料持续修订。
