@@ -21,7 +21,7 @@ export default defineConfig({
             "collapsed": false,
             "items": [
                   {
-                        "text": "本篇路线",
+                        "text": "人为什么需要计算",
                         "link": "/book/beginnings/"
                   },
                   {
