@@ -22,7 +22,7 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 *本篇插图为 AI 生成的教学想象。点击可查看原图。*
 
-## 羊都回来了吗？
+## 羊有没有少？ {#羊都回来了吗}
 
 自己的羊，牧人当然熟悉。可是，羊多了，在山上待了一整天，再混着走回来，熟悉也未必管用。何况有时还得请同伴来接。
 
@@ -38,9 +38,11 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 他甚至不必先说出总共有多少只。把羊和石子逐个配起来，就能查出数量有没有少。
 
-羊已经走到远处，石子还在手边。早晨的数量，就这样留到了傍晚。
+每取出一颗，袋里剩下的石子就少一颗。最后看袋子是否空了，便能作出数量有没有对上的判断。
 
-## 羊走远了，怎样记住数量？
+这个取放的过程，已经在计算了。羊群的数量由石子表示，牧人按固定办法改变石子，再从剩下的石子读出答案。
+
+## 怎样记住数量？ {#羊走远了-怎样记住数量}
 
 用过石子，牧人又想到木片。每出去一只，就划一道。若已经会写数字，还可以数过以后记下“羊，十二只”。
 
@@ -63,7 +65,7 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 </details>
 
-## 一颗石子，究竟算几只羊？
+## 一颗算几只？ {#一颗石子-究竟算几只羊}
 
 有一天，牧人托同伴接羊，指了指门边的袋子。
 
@@ -85,7 +87,7 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 两人说定了。下次羊回来，同伴就知道该怎样核对。
 
-## 只数羊，够不够？
+## 只数羊，够吗？ {#只数羊-够不够}
 
 同伴还有一个问题。
 
@@ -116,11 +118,13 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 牧人于是给羊作了标记。以后再核对，既查总数，也认具体的羊。
 
-## 记下来了，怎么算？
+## 怎样算出答案？ {#记下来了-怎么算}
 
 这天，出栏十二只，先回来十一只。同伴沿小路去找，终于把剩下的那只带了回来。
 
-牧人不用再从头数，也知道现在是十二只。十一加一，便是十二。
+牧人没有重新把十二只羊赶过入口。他知道先前回来十一只，又添一只，便算出现在是十二只。
+
+眼前还没有重新清点，答案却已经能从记录中得出。十一加一，便是十二。
 
 再看早晨的记录，也写着十二。两边一比，数量相等。
 
@@ -128,13 +132,21 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 他先后做了加法和比较。前者算出新数量，后者判断两个数量是否相等。已有的记录，经过操作，给出了新的答案。
 
+<div class="record-calculation" role="group" aria-label="原先十一只，新归一只，合计十二只">
+  <div><span>原先</span><strong>11</strong></div>
+  <div><span>新归</span><strong>1</strong></div>
+  <div><span>合计</span><strong>12</strong></div>
+</div>
+
+收羊时还要查看有没有受伤。他把数量核对和健康检查分开记，免得忙中漏掉一项。
+
 | 已经知道的事 | 怎样处理 | 得出什么 |
 | --- | --- | --- |
 | 已归 11，又回来 1 | 11 + 1 | 现在已归 12 |
 | 出栏 12，已归 12 | 比较两数 | 数量对上 |
-| 数量对上，标记也逐一对上 | 两项都满足 | 原来的羊都已归来 |
+| 数量对上，健康检查也完成 | 两项都满足 | 今天的清点与检查完成 |
 
-最后一行又多了一步。数量和标记，两项都对上，才作出最后的判断。“两项都满足”可以用逻辑运算中的“且”来表达。
+最后一行把两件事合在一起判断。数量对上，检查还没做完，就继续检查；检查做完，数量没对上，就继续寻找。“两项都满足”可以用逻辑运算中的“且”来表达。
 
 这些都是规则。规则说明，拿到什么信息以后，该怎样得到结果。
 
@@ -147,7 +159,7 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 </details>
 
-## 算对了，事情就对了吗？
+## 还要核对什么？ {#算对了-事情就对了吗}
 
 记录上已有十二只，牧人还是去看了羊。
 
@@ -185,7 +197,7 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 
 </details>
 
-## 我们究竟在算什么？
+## 我们在算什么？ {#我们究竟在算什么}
 
 回头看，牧人的办法已经变了许多。
 
@@ -205,6 +217,8 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 **把要解决的事记成可以操作的符号，按明确的规则处理，再读出结果。**
 
 结果要用到现实里，还得再问一句，记下的东西够不够，处理的办法合不合适，得出的答案能不能经得起核对。
+
+羊群之外，分配物资、测量土地、安排路程，也会遇到类似的需要。人先选出与问题有关的信息，再用合适的规则处理，求得原先还不知道的结果。
 
 计数与记账，早在古希腊和先秦思想家留下著作以前，就已进入人的生活。后来的思想家从各自关心的问题出发，讨论名称、同异、知识与推理。把这些讨论带回牧人的故事，我们更容易看清，每一步究竟需要什么。
 
@@ -238,6 +252,19 @@ import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 </details>
 
 <style scoped>
+.record-calculation {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 380px;
+  margin: 24px auto;
+  padding-block: 16px;
+  border-block: 1px solid var(--vp-c-divider);
+}
+.record-calculation div { text-align: center; }
+.record-calculation div + div { border-left: 1px solid var(--vp-c-divider); }
+.record-calculation span { display: block; font-size: 12px; color: var(--vp-c-text-2); }
+.record-calculation strong { display: block; margin-top: 6px; font-size: 24px; line-height: 1.4; font-weight: 500; }
+
 .reading-note, .chapter-sources {
   margin: 24px 0;
   padding: 14px 18px;
