@@ -5,6 +5,7 @@ outline: [2, 2]
 
 <script setup>
 import RepresentationFigure from '../../.vitepress/theme/components/RepresentationFigure.vue'
+import ChapterImage from '../../.vitepress/theme/components/ChapterImage.vue'
 </script>
 
 # 第一篇 · 人为什么需要计算
@@ -17,6 +18,10 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 
 我们从这个想象的牧羊场景开始，看看人怎样把眼前的疑问，一步步变成可以核对的答案。
 
+<ChapterImage file="beginnings-scene.png" alt="牧人在羊群附近摆放石子，远处是村落与山地" caption="生活中的一次核对，成为留下记录的起点。" eager />
+
+*本篇配图由 AI 生成，呈现教学想象。点击图片可查看原图。*
+
 ## 生活中的问题需要一个准数
 
 牧人熟悉自己的羊。它们不多时，他或许看一眼就能发现异常。羊多了，隔了一整天，或换了同伴来接，单凭印象就容易出错。
@@ -26,6 +31,8 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 第二天清晨，他在门边放一只空袋。每走出去一只羊，就往里放一颗石子。羊群离开以后，袋子留在原处。
 
 到了傍晚，回来一只，便从袋里取出一颗。
+
+<ChapterImage file="sheep-pairing.png" alt="左右两幅图对照清晨出栏时放入石子与傍晚归来时取出石子" caption="清晨放入，傍晚取出。石子把相隔一天的数量联系起来。" />
 
 石子取尽，说明回来的数量与早晨相同。还剩一颗，就有一个数量没有对上。即使牧人没有报出羊群的总数，也能照这个办法核对。
 
@@ -60,6 +67,8 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 
 石子没有丢，含义却传错了。牧人得先说明“一颗记一只”，还要交代记的是哪一群、哪一次出栏。两人用同一个办法解释记录，才可能得到相同的答案。
 
+<ChapterImage file="sheep-agreement.png" alt="两位牧人面对一只羊，用手中的一颗石子说明一颗代表一只的约定" caption="一颗代表一只，交接记录之前，先把约定说清楚。" />
+
 给符号约定含义，就是建立编码。这里最简单的约定，是一颗石子代表一只羊。写成文字与数字后，也需要知道“羊”指什么，“12”表示多少。
 
 战国时期，荀子在《正名》中写道：
@@ -77,6 +86,8 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 假如自家走失一只，邻家的羊又混进来一只，袋里的石子照样能够取尽。
 
 数量对上了，个体却换了。先前的办法完成了数量核对，要找回原来的每一只，还得保留识别它们的信息。
+
+<ChapterImage file="sheep-identity.png" alt="左右各三只羊和三颗石子，右侧第三只的标记由绿色变成黄色，数量相同而个体不同" caption="取三只作对照，以颜色示意个体标记。两边都是三只，其中一只却换了。" />
 
 | 牧人要知道什么 | 记录至少要包含什么 |
 | --- | --- |
@@ -103,6 +114,8 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 
 这里用了两个操作。先做加法，把新回来的数量加入旧记录；再做比较，核对已归数与出栏数。
 
+<ChapterImage file="sheep-operations.png" alt="一只羊刚到入口，牧人把石子合拢并在木板上更新刻痕" caption="羊群发生变化，手中的记录也要随之更新。" />
+
 | 手里的信息 | 操作规则 | 得到的答案 |
 | --- | --- | --- |
 | 已归 11，又回来 1 | 11 + 1 | 已归 12 |
@@ -123,6 +136,8 @@ import RepresentationFigure from '../../.vitepress/theme/components/Representati
 ## 验证让答案经得起核对
 
 账面上写着十二只，牧人仍走到入口，按标记重新查了一遍。他想知道，刚才的结论是否确实对应眼前的羊群。
+
+<ChapterImage file="sheep-verification.png" alt="一位牧人拿着刻痕板，另一位查看羊的个体标记，将记录与实物核对" caption="拿着记录回到羊群，核对数字，也核对具体的羊。" />
 
 他可能把一只羊记了两次，也可能把别人的羊认成自己的。运算正确，输入仍可能有误。
 
