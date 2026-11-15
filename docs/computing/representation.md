@@ -1,8 +1,12 @@
+<script setup>
+import RepresentationFigure from '../.vitepress/theme/components/RepresentationFigure.vue'
+</script>
+
 # 羊群不在眼前，还能怎样记下来？
 
 三只羊要带三颗石子。羊再多一些呢？可以把数量写下来。
 
-![从羊群到石子、刻痕和数字的表示对照](/images/representation.svg)
+<RepresentationFigure :count="3" />
 
 图中是教学示意。读者知道约定，就能从「羊 · 3」读回类别与数量。
 
