@@ -3,7 +3,7 @@
 }
 
 /* Keep the reading column distinct from the two navigation columns. */
-.VPDoc.has-aside .content-container { max-width: 640px; }
+#app .VPDoc.has-aside .content-container { max-width: 640px; }
 .vp-doc { line-height: 1.9; }
 .vp-doc p { margin-block: 20px; }
 .vp-doc h1 { font-size: 30px; line-height: 1.5; letter-spacing: 0; }
@@ -12,25 +12,25 @@
 .vp-doc th, .vp-doc td { padding: 10px 14px; }
 
 /* Short labels and compact spacing give navigation less visual weight. */
-.VPSidebarItem .text { font-size: 13px; line-height: 20px; letter-spacing: 0; padding-block: 3px; }
-.VPSidebarItem.level-0 { padding-bottom: 12px; }
-.VPSidebarItem.level-0 .text { font-weight: 500; }
-.VPSidebarItem.level-1 .text { font-size: 12px; font-weight: 400; }
-.VPSidebarItem .caret { height: 26px; }
-.VPDocAsideOutline .content { padding-left: 14px; }
-.VPDocAsideOutline .outline-title { font-size: 12px; line-height: 28px; font-weight: 500; }
-.VPDocOutlineItem .outline-link { font-size: 12px; line-height: 26px; letter-spacing: 0; }
-.VPDocAsideOutline .outline-marker { top: 28px; }
+#app .VPSidebarItem .text { font-size: 13px; line-height: 20px; letter-spacing: 0; padding-block: 3px; }
+#app .VPSidebarItem.level-0 { padding-bottom: 12px; }
+#app .VPSidebarItem.level-0 .text { font-weight: 500; }
+#app .VPSidebarItem.level-1 .text { font-size: 12px; font-weight: 400; }
+#app .VPSidebarItem .caret { height: 26px; }
+#app .VPDocAsideOutline .content { padding-left: 14px; }
+#app .VPDocAsideOutline .outline-title { font-size: 12px; line-height: 28px; font-weight: 500; }
+#app .VPDocOutlineItem .outline-link { font-size: 12px; line-height: 26px; letter-spacing: 0; }
+#app .VPDocAsideOutline .outline-marker { top: 28px; }
 
 /* Preserve comfortable touch targets in the mobile navigation drawer. */
 @media (max-width: 959px) {
-  .VPSidebarItem .text { padding-block: 11px; line-height: 22px; }
-  .VPSidebarItem .caret { height: 44px; width: 44px; }
+  #app .VPSidebarItem .text { padding-block: 11px; line-height: 22px; }
+  #app .VPSidebarItem .caret { height: 44px; width: 44px; }
 }
 @media (min-width: 1280px) {
-  .VPDoc .content { padding-inline: 40px; }
-  .VPDoc .aside { padding-left: 44px; max-width: 224px; }
-  .VPDoc .aside-container, .VPDoc .aside-curtain { width: 180px; }
+  #app .VPDoc > .container > .content { padding-inline: 40px; }
+  #app .VPDoc .aside { padding-left: 44px; max-width: 224px; }
+  #app .VPDoc .aside-container, #app .VPDoc .aside-curtain { width: 180px; }
 }
 @media (max-width: 640px) {
   .vp-doc h1 { font-size: 26px; }
