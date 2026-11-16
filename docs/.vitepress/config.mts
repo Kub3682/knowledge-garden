@@ -65,6 +65,10 @@ export default defineConfig({
   {
     "text": "八 · 进入物理世界",
     "link": "/book/physical/"
+  },
+  {
+    "text": "附录 · 延伸阅读",
+    "link": "/reading"
   }
 ],
     search: { provider: 'local' },
