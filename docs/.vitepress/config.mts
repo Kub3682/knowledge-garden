@@ -17,11 +17,11 @@ export default defineConfig({
     "link": "/"
   },
   {
-    "text": "一 · 计算的起点",
+    "text": "一 · 表示",
     "collapsed": false,
     "items": [
       {
-        "text": "人为什么需要计算",
+        "text": "十二只，都回来了吗？",
         "link": "/book/beginnings/"
       },
       {
@@ -39,7 +39,7 @@ export default defineConfig({
     ]
   },
   {
-    "text": "二 · 机器代劳",
+    "text": "二 · 算法与状态",
     "link": "/book/machines/"
   },
   {
@@ -47,7 +47,7 @@ export default defineConfig({
     "link": "/book/programs/"
   },
   {
-    "text": "四 · 并行与协作",
+    "text": "四 · 数据与效率",
     "link": "/book/systems/"
   },
   {
@@ -55,15 +55,15 @@ export default defineConfig({
     "link": "/book/learning/"
   },
   {
-    "text": "六 · 语言与模型",
+    "text": "六 · 语言与证据",
     "link": "/book/language/"
   },
   {
-    "text": "七 · 从回答到行动",
+    "text": "七 · 工具与行动",
     "link": "/book/agents/"
   },
   {
-    "text": "八 · 进入物理世界",
+    "text": "八 · 控制与反馈",
     "link": "/book/physical/"
   },
   {
